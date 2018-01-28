@@ -28,22 +28,86 @@ margin: auto;
 }
 
 #aside {
-border-style: hidden;
+margin-top: auto;
 background-color: #ebebeb;
 color: #777;
 font-size: 18px;
 text-align: center;
 margin-right: 280px;
 font-family: Arial, Helvetica, sans-serif;
+width: 450px;
+float: right;
+height: 250px;
+padding-top: 50px;
+}
+.section {  
+margin-top: auto;
+background-color: #ebebeb;
+color: #777;
+font-size: 18px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
 width: 495px;
 float: right;
 height: 250px;
 padding-top: 50px;
+margin-right: 15px;
+}
+.article {
+color: #ebebeb;
+background-color: #777;
+font-size: 18px;
+text-align: center;
+width: 475px;
+height: 200px;
+margin-left: 10px;
+float: bottom;
+}
 
+.headers {
+    color: #777;
+    background-color: #ebebeb; 
+    font-size: 18px;  /*how to change font per heading*/
+    text-align: center;
+    width: 450px;
+    height: 50px;
+    margin-left: 290px;
+    margin-top: 160;
+    position: relative;
+    z-index: 1;
+    
+
+    
+/*I don't know wny the headings aren't showing for headers and p*/
+
+}
+.paragraph {
+    color: #777;
+    background-color: #ebebeb; 
+    font-size: 18px;
+    text-align: center;
+    width: 450px;
+    height: 50px;
+    margin-left: 290px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+    
+    
+
+}
+#footer {
+background-color: #ebebeb;
+color: #777;
+font-size: 18px;
+padding-top: 10px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+width: 960px;
+height: 60px;
+margin-left: auto;
+margin-right: auto;
 
 
 
 }
-
-
-
